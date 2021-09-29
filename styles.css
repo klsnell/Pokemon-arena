@@ -1,0 +1,46 @@
+h1{
+    text-align:center;
+    color:gold;
+    border-radius:50%;
+}
+body{
+    background-image:url('https://wallpapercave.com/wp/wp3001169.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.pokemon{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/4/4c/Pokeball.png");
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    height:400px;
+    width:400px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:10%;
+}
+.lchoose{
+    margin-top:25%;
+    margin-left:10%;
+    margin-right:10%;
+    position:relative;
+    padding-left:50px;
+    padding-right:50px;
+    background-color:gold;
+    border-radius:50%;
+    align:center;
+    color:red;
+    display:inline-flex;
+    font-size:20px;
+    
+}
+.lchoose:hover{
+    background-color:yellow;
+}
+#selected{
+    color:rgb(56, 50, 13);
+    text-align:center;
+    padding-top:100px;
+    font-size: 30px;
+}
